@@ -2,7 +2,9 @@ name: ocir-test
 on:
   push:
     branches:
-      - '*'
+      - ignore
+    paths-ignore:
+      - 'workflow.yml'
 
 # test2
 
