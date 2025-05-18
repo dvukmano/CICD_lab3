@@ -2,7 +2,7 @@ name: k8s-test
 on:
   push:
     branches:
-      - main
+      - dd
     paths-ignore:
       - 'workflow.yml'
 
